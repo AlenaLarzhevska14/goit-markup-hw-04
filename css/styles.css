@@ -223,13 +223,19 @@ img {
 }
 
 .features-svg {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background: #f4f4fd;
   border: 1px solid #8e8f99;
   width: 264px;
   height: 112px;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.icons-pictures {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+  justify-content: center;
 }
 
 .features-description {
@@ -277,9 +283,6 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-.team-image {
-}
-
 .team-lists {
   display: flex;
   gap: 24px;
@@ -304,6 +307,17 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+}
+
+.social {
+  display: flex;
+  fill: #4d5ae5;
+  border-radius: 100%;
+}
+
+.team-svg {
+  display: flex;
+  fill: #4d5ae5;
 }
 
 .features-item {
