@@ -463,3 +463,43 @@ img {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+
+.footer-list {
+  gap: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.footer-svg {
+  fill: #f4f4fd;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.footer-excerpt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-social {
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: row;
+}
