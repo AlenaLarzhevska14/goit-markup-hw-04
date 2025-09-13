@@ -309,7 +309,7 @@ img {
   text-align: center;
 }
 
-.social-list {
+.social-team {
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -318,11 +318,7 @@ img {
 }
 
 .team-svg {
-  display: flex;
   fill: #f4f4fd;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
 }
 
 .features-item {
