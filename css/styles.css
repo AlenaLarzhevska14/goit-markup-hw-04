@@ -330,11 +330,11 @@ img {
   fill: #f4f4fd;
 }
 
-.social :hover {
+.social-list :hover {
   background-color: #404bbf;
 }
 
-.social:focus {
+.social-list:focus {
   background-color: #4d5ae5;
 }
 
