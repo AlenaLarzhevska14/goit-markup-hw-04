@@ -338,6 +338,12 @@ img {
   background-color: #4d5ae5;
 }
 
+.social-list {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
 .features-item {
   max-width: 264px;
 }
