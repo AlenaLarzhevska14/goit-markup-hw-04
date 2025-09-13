@@ -314,6 +314,12 @@ img {
   gap: 24px;
   justify-content: center;
   align-items: center;
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
   background-color: #4d5ae5;
 }
 
