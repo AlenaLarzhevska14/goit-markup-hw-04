@@ -312,12 +312,12 @@ img {
   gap: 24px;
   justify-content: center;
   align-items: center;
+  margin-top: 8px;
 }
 
 .social {
   width: 40px;
   height: 40px;
-  margin-top: 8px;
 }
 
 .team-svg {
