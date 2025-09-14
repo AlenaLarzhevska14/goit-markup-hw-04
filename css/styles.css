@@ -155,8 +155,11 @@ img {
 /* ----------HERO------------ */
 .hero {
   background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    (rgba(46, 47, 66, 0.7)), url(../images/people-office1.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -200,6 +203,7 @@ img {
 
 .button:focus {
   background-color: #404bbf;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button {
@@ -336,6 +340,7 @@ img {
 
 .social-list:focus {
   background-color: #404bbf;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-list {
