@@ -456,7 +456,6 @@ img {
 .containers {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .logo-link {
@@ -544,4 +543,8 @@ img {
 
 .logo-link :focus {
   background-color: #31d0aa;
+}
+
+.logo-studio-link {
+  margin-right: 120px;
 }
