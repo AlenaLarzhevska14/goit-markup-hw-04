@@ -319,18 +319,14 @@ img {
 .social {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  padding-top: 12px;
-  padding-bottom: 12px;
   margin-top: 8px;
-  background-color: #4d5ae5;
 }
 
 .team-svg {
   fill: #f4f4fd;
 }
 
-.social-list :hover {
+.social-list:hover {
   background-color: #404bbf;
 }
 
@@ -339,13 +335,16 @@ img {
 }
 
 .social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 100%;
   border-radius: 50%;
   background: #4d5ae5;
 }
 
-.social-list .features-item {
+.social-list.features-item {
   max-width: 264px;
 }
 
