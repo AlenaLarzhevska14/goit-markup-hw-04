@@ -536,3 +536,11 @@ img {
   border-radius: 50%;
   background: #4d5ae5;
 }
+
+.logo-link :hover {
+  background-color: #31d0aa;
+}
+
+.logo-link :focus {
+  background-color: #31d0aa;
+}
