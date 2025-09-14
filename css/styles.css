@@ -455,6 +455,7 @@ img {
 
 .containers {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-link {
@@ -483,6 +484,7 @@ img {
 }
 
 .footer-list {
+  display: flex;
   gap: 16px;
   width: 40px;
   height: 40px;
